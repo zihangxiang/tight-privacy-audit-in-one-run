@@ -5,6 +5,8 @@ and gets `u` of them wrong, this library answers:
 
 > what is the largest `eps` we can reject at 95 % confidence?
 
+The core of our method is the order statistics modeling when `r < n`.
+
 ## Install
 
 Requires `numpy` and `scipy` only. Could also use the tensor counterpart in `torch` to speed up in GPU.
