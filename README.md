@@ -1,4 +1,5 @@
-# one-run privacy audit — tight tail bounds
+# Implementaion for paper **Tight Privacy Audit in One run** (to appear in 2027 IEEE Symposium on Security and Privacy).
+---
 
 Given an audit that plants `n` canaries, releases its `r` most confident guesses
 and gets `u` of them wrong, this library answers:
